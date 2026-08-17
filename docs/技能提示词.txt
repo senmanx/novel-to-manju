@@ -1,0 +1,135 @@
+技能特效分镜示例库（MiniMax H3 · Ref2VA 全参考模式）
+
+使用说明：以下技能示例均已改写为 MiniMax H3 的 Ref2VA 全参考模式六段式结构（subject_definitions → summary → retention_analysis → detailed_description → overall_soundscape → non_diegetic_music）。H3 单段 4-15 秒，15 秒及以内单段一次生成；超过 15 秒拆多段，段间"上一段尾帧=下一段首帧"。台词原生语音（<Subject N> (Sx)，<d>[中文] …</d>），音效写具体声源，non_diegetic_music 一律 N/A。
+
+──────────────────────────────
+
+1、万剑归宗（12 秒单段，无台词纯技能）
+
+参考图清单：图1=白衣女修立绘；图2=深渊古战场场景。
+
+subject_definitions:
+<Subject 1> 是 <Picture 1> 中的白衣女修仙者，面容清冷，白衣翻飞，长发随风，单手结剑诀。
+<Subject 2> 是 <Picture 2> 中的深渊古战场，苍茫压抑，天空覆厚重墨色阴云，大地龟裂。
+
+summary:
+[reference generation] 无台词纯技能展示，四个镜头：古剑特写急拉、剑阵遮天、仙剑轰地、剑狱定格。无对白。
+
+retention_analysis:
+<Subject 1> (出现在 [Shot 1], [Shot 2]): fully_preserved - 清冷面容、白衣、长发全程保留。
+<Subject 2> (出现在 [Shot 1], [Shot 3], [Shot 4]): fully_preserved - 墨色阴云、龟裂大地全程保留。
+
+detailed_description:
+目标视频为顶级东方仙侠特效大片，冷冽青蓝色调，刺目金白剑芒。声音约束：无对白，只有剑鸣与剑气破空。
+[Shot 1]（微距极速拉远转大远景，0-3秒）：<Subject 1> 念诀掷剑，古剑特写震颤寒光，剑鸣后镜头急拉，苍穹荡开云层，百万仙剑悬浮列成遮天旋转剑阵。特效：剑鸣共振。
+[Shot 2]（极低仰拍转跟随，3-6秒）：剑阵中心爆过曝白光，百万仙剑拖百丈流光如天河倾泻，剑气切出空间裂缝。
+[Shot 3]（中景物理碰撞，6-9秒）：仙剑轰击地面，纯物理切割穿透，大地崩碎，剑气织密光网。
+[Shot 4]（大远景摇摄，9-12秒）：强光散去，无数仙剑斜插废墟成无尽剑狱，剑雨连绵遮蔽光线。结尾保持约1秒作下一段首帧。
+
+overall_soundscape:
+剑鸣、金属共振、破空声、金属洪流轰鸣、地裂与金石摩擦声贯穿。
+
+non_diegetic_music:
+N/A
+
+──────────────────────────────
+
+2、暗黑法相降临（15 秒单段）
+
+参考图清单：图1=主角立绘；图2=魔神法相参考；图3=暗域场景；音频参考=<Audio 1>。
+
+subject_definitions:
+<Subject 1> 是 <Picture 1> 中的主角，年轻男子，黑衣，长发，单手召唤姿态。
+<Subject 2> 是 <Picture 2> 中的暗黑魔神法相，由纯净暗物质构成，面容肃穆严厉，体型遮天蔽日。
+<Subject 3> 是 <Picture 3> 中的暗域大地，荒芜，碎石悬浮，黑色电流流动。
+<Audio 1> 是 <Subject 1> (S1) 的音色参考，低沉、厚重、带回响的年轻男声。
+
+summary:
+[reference generation + audio reference] 四个镜头：魔气升起、法相爬起、万丈魔神、全景定格。台词由 <Subject 1> 以 <Audio 1> 的音色低喝"降临"。
+
+retention_analysis:
+<Subject 1> (出现在 [Shot 1], [Shot 2]): fully_preserved - 黑衣、长发、召唤姿态全程保留。
+<Subject 2> (出现在 [Shot 2], [Shot 3], [Shot 4]): fully_preserved - 暗物质质感、肃穆面容、遮天体型全程保留。
+<Subject 3> (出现在 [Shot 1]): fully_preserved - 荒芜大地、悬浮碎石、黑色电流全程保留。
+<Audio 1>: reference - 使用 <Audio 1> 的音色与低沉情绪，不复制原声信号。
+
+detailed_description:
+目标视频为暗黑写实3D CG，侧逆光刺透烟雾，气氛压抑肃杀。声音约束：全片只有 <Subject 1> 说"降临"二字。
+[Shot 1]（极低角度中景慢推，0-3秒）：<Subject 1> 立于荒芜大地，魔气升起，碎石反重力悬浮，黑色电流流动。音效：低沉嗡鸣。
+[Shot 2]（侧逆光+极速拉远，3-8秒）：<Subject 1> 单手召唤，以 <Audio 1> 的音色低喝：<Subject 1> (S1)，<d>[中文] 降临。</d> 其身后魔神大手虚影伸出抓紧地面，大地震颤，暗物质法相从地下缓缓爬起。特效：混沌黑暗质感。
+[Shot 3]（极远全景，8-12秒）：万丈魔神屹立，千只魔手展开遮天蔽日，极致体型差。音效：次声波+虚空混响。
+[Shot 4]（极远全景拉远，12-15秒）：魔神法相俯视，画面定格。结尾保持约1秒作下一段首帧。
+
+overall_soundscape:
+低沉嗡鸣、地裂、魔气呼啸、次声波与虚空混响层层递进，结尾低频余韵。
+
+non_diegetic_music:
+N/A
+
+──────────────────────────────
+
+3、星罗棋网（12 秒单段，无台词）
+
+参考图清单：图1=角色立绘；图2=云海场景。
+
+subject_definitions:
+<Subject 1> 是 <Picture 1> 中的角色，冷冽面庞，负手而立，单手凝棋子。
+<Subject 2> 是 <Picture 2> 中的苍茫云海之巅，云层翻涌。
+
+summary:
+[reference generation] 无台词，四个镜头：落子、封天、陨星、定局。无对白。
+
+retention_analysis:
+<Subject 1> (出现在 [Shot 1], [Shot 4]): fully_preserved - 冷冽面庞、负手姿态全程保留。
+<Subject 2> (出现在 [Shot 1], [Shot 2], [Shot 4]): fully_preserved - 翻涌云海全程保留。
+
+detailed_description:
+目标视频为顶级国风动漫奇幻CG，高饱和色彩爆炸，超现实。声音约束：无对白，仅落子与坠地音效。
+[Shot 1]（仰拍半身特写，0-3秒）：<Subject 1> 冷冽面庞，唇角淡讽笑意，食中二指凝出刺目白光棋子，重重向云海虚按。
+[Shot 2]（大远景广角，3-6秒）：落子刹那，天穹云海齐亮，直径万丈金色围棋网格瞬锁天地，天空化作纯黑深夜。
+[Shot 3]（环绕运镜转特写，6-9秒）：苍穹坠下百余米巨型黑白棋子虚影，燃双色流体火焰，如陨石雨狂砸。
+[Shot 4]（俯拍极远景，9-12秒）：云海被镇成平整黑白方格巨坑，<Subject 1> 负手立苍穹，衣摆狂风中纹丝不动。结尾保持约1秒作下一段首帧。
+
+overall_soundscape:
+沉闷落子回音、低频空间共振、连环陨石坠地巨响、风声与余韵。
+
+non_diegetic_music:
+N/A
+
+──────────────────────────────
+
+4、水龙剑（10 秒单段，无台词）
+
+参考图清单：图1=女子立绘；图2=干裂大地场景。
+
+subject_definitions:
+<Subject 1> 是 <Picture 1> 中的女子，白衣，长发，持剑，悬空而立。
+<Subject 2> 是 <Picture 2> 中的干裂大地，清冷夜空，阴云密布。
+
+summary:
+[reference generation] 无台词，两个镜头：水诀蓄力、法阵展开。无对白。
+
+retention_analysis:
+<Subject 1> (出现在 [Shot 1], [Shot 2]): fully_preserved - 白衣、长发、持剑姿态全程保留。
+<Subject 2> (出现在 [Shot 1], [Shot 2]): fully_preserved - 干裂大地、清冷夜空全程保留。
+
+detailed_description:
+目标视频为东方仙侠特效，幽蓝水光，气氛空灵。声音约束：无对白，仅水声与剑鸣。
+[Shot 1]（中景环绕慢动作跟拍，0-5秒）：<Subject 1> 悬空于干裂大地之上，白衣被夜风拂动，身姿轻盈旋舞，手腕挽出层层剑花，收剑于胸前，眼神凝定蓄势。特效：剑身泛起幽蓝水光，剑气划过凝结细碎水珠。
+[Shot 2]（仰拍推进全景拉远，5-10秒）：长剑悬停高空为阵眼，巨大水纹法阵自剑身展开覆盖夜空，<Subject 1> 单手擎天，指尖指向阵心，衣摆向上翻飞。特效：波浪符文法阵散发蓝白强光，水汽凝聚成微型水龙卷环绕剑刃。结尾保持约1秒作下一段首帧。
+
+overall_soundscape:
+空灵笛音、细微水流声、轻柔破空声、激昂弦乐、浪潮轰鸣与低频共振。
+
+non_diegetic_music:
+N/A
+
+──────────────────────────────
+
+通用 H3 提示：
+- H3 单段 4-15 秒，15 秒及以内单段一次生成，超过 15 秒才拆多段（段间"上一段尾帧=下一段首帧"）
+- 输出六段式：subject_definitions / summary / retention_analysis / detailed_description / overall_soundscape / non_diegetic_music
+- 台词原生语音：<Subject N> (Sx)，<d>[中文] 台词</d>，绑定 <Audio N> 音色
+- 人物/场景/神兽用参考图锁定一致性（subject_definitions + retention_analysis）
+- 音效写具体声源，non_diegetic_music 一律 N/A（不要背景音乐）
+- 需要字幕时在 detailed_description 末尾写"画面文字：…"，不需要省略
